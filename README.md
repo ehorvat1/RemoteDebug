@@ -1,4 +1,4 @@
-# Fork crated 15Jan2024
+# Changes in this fork (created 15Jan2024)
 Includes fix: https://github.com/fhessel/esp32_https_server/issues/136
 So only change to original repository is in file: /src/utility/WebSockets.cpp , line 42 was changed
 From: #include <hwcrypto/sha.h>
