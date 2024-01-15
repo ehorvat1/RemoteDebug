@@ -1,7 +1,7 @@
 # Changes in this fork (created 15Jan2024)
 Includes fix of a compile error due to missing hwcrypto/sha.h: https://github.com/fhessel/esp32_https_server/issues/136
 
-Only change to original repository is in file: /src/utility/WebSockets.cpp .... where line 42 was changed
+Only change to original repository is in file: /src/utility/WebSockets.cpp  https://github.com/ehorvat1/RemoteDebug/blob/master/src/utility/WebSockets.cpp .... where line 42 was changed
 
 From: #include <hwcrypto/sha.h>
 
