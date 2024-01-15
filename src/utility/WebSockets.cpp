@@ -39,7 +39,7 @@ extern "C" {
 #ifdef ESP8266
 #include <Hash.h>
 #elif defined(ESP32)
-#include <sha/sha_parallel_engine.h> //EHorvat: changed according suggestion in: https://github.com/fhessel/esp32_https_server/issues/136 , was: <hwcrypto/sha.h> ,
+#include <sha/sha_parallel_engine.h> //EHorvat: changed according suggestion in: https://github.com/fhessel/esp32_https_server/issues/136 , was: <hwcrypto/sha.h>
 #else
 
 extern "C" {
