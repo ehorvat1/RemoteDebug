@@ -1,3 +1,9 @@
+# Fork crated 15Jan2024
+Includes fix: https://github.com/fhessel/esp32_https_server/issues/136
+So only change to original repository is in file: /src/utility/WebSockets.cpp , line 42 was changed
+From: #include <hwcrypto/sha.h>
+To: #include <sha/sha_parallel_engine.h> //EHorvat: changed according suggestion in: https://github.com/fhessel/esp32_https_server/issues/136 , was: <hwcrypto/sha.h> ,
+
 # RemoteDebug Library
 
 A library for Arduino to debug projects over WiFi, with web app or telnet client,
